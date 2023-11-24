@@ -1,0 +1,7 @@
+.navbar > .container {
+    margin-left: 1rem !important;
+}
+
+.navbar {
+    border-bottom: 1px solid #dddddd;
+}

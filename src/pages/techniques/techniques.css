@@ -1,0 +1,28 @@
+.sidebar-menu {
+  padding-top: 0;
+  flex-direction: column;
+  grid-area: sidebar;
+  overflow-y: auto;
+}
+
+.sidebar-menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar-menu .sidebar-menu-nav-link {
+    text-align: left;
+}
+
+.technique-container {
+    text-align: left;
+}
+
+.technique-container h2 {
+    margin-top: 2rem;
+}

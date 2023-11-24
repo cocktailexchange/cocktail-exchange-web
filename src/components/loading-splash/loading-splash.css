@@ -1,0 +1,27 @@
+.loading-splash {
+    width: 100vw;
+    height: 100vh;
+
+    /* Display overlay in fullscreen */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /* Center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loading-splash svg {
+    width: 25vw;
+    height: 25vw;
+
+    max-width: 300px;
+    height: 300px;
+
+    margin: auto;
+}

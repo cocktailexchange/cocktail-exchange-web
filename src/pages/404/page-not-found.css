@@ -1,0 +1,9 @@
+.notfound-main-div {
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.notfound-main-div {
+    display: flex;
+    align-items: center;
+}
