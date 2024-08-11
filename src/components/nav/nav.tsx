@@ -10,15 +10,15 @@ function HeaderNav() {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href={APP_URLS.home}>The Cocktail Exchange</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto" activeKey={location.pathname}>
-              <Nav.Link href={APP_URLS.techniques}>Technique Library</Nav.Link>
-              <Nav.Link>Ingredients</Nav.Link>
-              <Nav.Link>Recipes</Nav.Link>
-              <Nav.Link>Calculators</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          {/*<Navbar.Toggle aria-controls="basic-navbar-nav" />*/}
+          {/*<Navbar.Collapse id="basic-navbar-nav">*/}
+          {/*  <Nav className="me-auto" activeKey={location.pathname}>*/}
+          {/*    <Nav.Link href={APP_URLS.techniques}>Library</Nav.Link>*/}
+          {/*    <Nav.Link href={APP_URLS.ingredients}>Ingredients</Nav.Link>*/}
+          {/*    /!*<Nav.Link>Recipes</Nav.Link>*!/*/}
+          {/*    <Nav.Link>Calculators</Nav.Link>*/}
+          {/*  </Nav>*/}
+          {/*</Navbar.Collapse>*/}
         </Container>
       </Navbar>
     );

@@ -14,10 +14,12 @@ export const InstantAcidAdjustmentEntry = {
                 <p>
                     If our base solution (most likely juice) has pH <Latex>{'$p_{base}$'}</Latex>, and our target pH is <Latex>{'$p_{target}$'}</Latex>,
                     then our goal is to determine the recipe for an instant adjustment
-                    solution that, when <Latex>{'$V_{solution}$'}</Latex> milliliters of solution is added to
-                    <Latex>{'$V_{base}$'}</Latex> milliliters of the base, produces the correct target pH <Latex>{'$p_{target}$'}</Latex>.
+                    solution that, when <Latex>{'$V_{solution}$'}</Latex> liters of solution is added to
+                    <Latex>{'$V_{base}$'}</Latex> liters of the base, produces the correct target pH <Latex>{'$p_{target}$'}</Latex>.
                 </p>
             </div>
         )
     }
 }
+
+// Grapefruit to lime: 27 grams citric acid powder and 13 grams malic acid powder per liter juice

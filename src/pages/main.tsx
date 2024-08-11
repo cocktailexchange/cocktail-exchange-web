@@ -7,6 +7,7 @@ import {APP_URLS} from "../util/urls";
 import PageNotFound from './404/page-not-found'
 import Home from "./home/home";
 import Techniques from "./techniques/techniques";
+import Ingredients from "./ingredients/ingredients";
 
 function Main() {
     const navigate = useNavigate();
@@ -15,7 +16,8 @@ function Main() {
     return (
         <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path={APP_URLS.techniques} element={<Techniques/>} />
+            {/*<Route path={APP_URLS.techniques} element={<Techniques/>} />*/}
+            {/*<Route path={APP_URLS.ingredients} element={<Ingredients/>} />*/}
             <Route path="*" element={<PageNotFound/>}/>
         </Routes>
     );

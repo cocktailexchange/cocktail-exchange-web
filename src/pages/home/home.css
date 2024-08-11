@@ -1,0 +1,19 @@
+.main-container .card {
+    margin-bottom: var(--bs-gutter-x);
+}
+
+.main-container .card {
+    text-align: left;
+}
+
+.main-container .header-card .title {
+    /*color: var(--col-primary);*/
+}
+
+.main-container .header-card .subtitle {
+    color: #ffffff;
+}
+
+.main-container .article-card .article-name {
+    /*color: var(--col-primary);*/
+}

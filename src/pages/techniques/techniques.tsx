@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './techniques.css';
-import {faStar} from '@fortawesome/free-solid-svg-icons';
+import {faStar, faHourglass, faSpoon, faMartiniGlass, faWhiskeyGlass, faMartiniGlassEmpty, faTemperatureHalf, faFire, faSmog, faLemon, faJugDetergent, faBacon, faStopwatch, faWineGlass} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {flattenListWithLookup, SidebarCategory, SidebarMenu} from "../../components/sidebar/sidebar";
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -16,13 +16,13 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "measuring",
                 name: "Measuring",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faHourglass}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
                 key: "stirring",
                 name: "Stirring",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faSpoon}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
@@ -52,7 +52,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "essentials-glassware",
                 name: "Glassware",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faMartiniGlassEmpty}/>,
                 content: () => {return <div>Content! 11 Aliased</div>}
             },
             {
@@ -69,7 +69,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "acidity",
                 name: "Acidity",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faLemon}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
@@ -87,7 +87,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "temperature-dilution",
                 name: "Temperature & Dilution",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faTemperatureHalf}/>,
                 content: () => {return <div>Content! 11</div>}
             },
         ]
@@ -98,13 +98,13 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "old-fashioned-format",
                 name: "Old Fashioned",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faWhiskeyGlass}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
                 key: "manhattan-martini-format",
                 name: "Manhattan / Martini",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faMartiniGlass}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
@@ -134,7 +134,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "flip-format",
                 name: "Flip",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faWineGlass}/>,
                 content: () => {return <div>Content! 11</div>}
             },
         ],
@@ -152,7 +152,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "glassware-temperature",
                 name: "Glassware Temperature",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faTemperatureHalf}/>,
                 content: () => {return <div>Content! 11</div>}
             },
         ]
@@ -163,7 +163,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "essentials-glassware-alias",
                 name: "Glassware Essentials",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faMartiniGlassEmpty}/>,
                 content: () => {return <div>Content! 11</div>},
                 alias: "essentials-glassware",
             },
@@ -181,13 +181,13 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "flamed-peels",
                 name: "Flamed Peels",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faFire}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
                 key: "smoking",
                 name: "Smoking",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faSmog}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
@@ -209,19 +209,19 @@ const techniques: Array<SidebarCategory> = [
             },{
                 key: "fat-washing",
                 name: "Fat Washing",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faBacon}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
                 key: "milk-washing",
                 name: "Milk Washing",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faJugDetergent}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
                 key: "rapid-infusing",
                 name: "Rapid Infusing",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faStopwatch}/>,
                 content: () => {return <div>Content! 11</div>}
             },
         ]
@@ -250,7 +250,7 @@ const techniques: Array<SidebarCategory> = [
             {
                 key: "clarified-milk-punch",
                 name: "Clarified Milk Punch",
-                icon: <FontAwesomeIcon icon={faStar}/>,
+                icon: <FontAwesomeIcon icon={faJugDetergent}/>,
                 content: () => {return <div>Content! 11</div>}
             },
             {
