@@ -6,6 +6,7 @@ import {APP_URLS} from "../util/urls";
 
 import PageNotFound from './404/page-not-found'
 import Home from "./home/home";
+import Menu from "./menu/menu";
 import Techniques from "./techniques/techniques";
 import Ingredients from "./ingredients/ingredients";
 
@@ -15,10 +16,11 @@ function Main() {
 
     return (
         <Routes>
-            <Route path='/' element={<Home/>} />
+            {/*<Route path='/' element={<Home/>} />*/}
+            {/*<Route path='/cocktail-exchange-web' element={<Menu/>} />*/}
             {/*<Route path={APP_URLS.techniques} element={<Techniques/>} />*/}
             {/*<Route path={APP_URLS.ingredients} element={<Ingredients/>} />*/}
-            <Route path="*" element={<PageNotFound/>}/>
+            <Route path="*" element={<Menu/>}/>
         </Routes>
     );
 }

@@ -1,0 +1,24 @@
+.drink-section {
+    text-align: left;
+}
+
+.drink-section .drink-section-title {
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    color: #F6F6F1;
+    margin-bottom: 0.5rem;
+}
+
+.drink-section .drink {
+    margin-bottom: 1.5rem;
+    color: #F6F6F1;
+}
+
+.drink .drink-name {
+    color: #C84657;
+    font-weight: 600;
+}
+
+.drink .drink-subtext {
+    font-style: italic;
+}

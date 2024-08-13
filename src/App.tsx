@@ -10,7 +10,7 @@ function App() {
     return (
         <div className="App">
             <React.Suspense fallback={<LoadingSplash/>}>
-                <HeaderNav />
+                {/*<HeaderNav />*/}
                 <div className="main-contents">
                     <Main />
                 </div>
