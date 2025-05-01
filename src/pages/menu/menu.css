@@ -12,13 +12,58 @@
 .drink-section .drink {
     margin-bottom: 1.5rem;
     color: #F6F6F1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .drink .drink-name {
-    color: #C84657;
+    color: #c73246;
     font-weight: 600;
 }
 
 .drink .drink-subtext {
+    font-style: italic;
+}
+
+.drink .drink-icon {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drink .drink-icon img {
+    max-height: 3rem;
+    max-width: 3rem;
+}
+
+.spirits-section .drink-text {
+    /*display: flex;*/
+    /*column-gap: 0.5rem;*/
+}
+
+.spirits-section .drink .drink-name {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.spirits-section .drink .drink-subtext {
+    font-style: italic;
+    color: #c73246;
+}
+
+.drink-section-title.title0 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.drink-section-title.title1 {
+    font-size: 1.25rem;
+}
+
+.drink-section-title.title2 {
+    font-size: 1rem;
     font-style: italic;
 }
