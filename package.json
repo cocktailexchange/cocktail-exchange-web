@@ -1,7 +1,7 @@
 {
   "name": "cocktail-exchange-web",
   "version": "0.1.0",
-  "homepage": "https://cocktailexchange.github.io/cocktail-exchange-web",
+  "homepage": "https://cocktailexchange.github.io/cocktail-exchange-web/#",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -35,6 +35,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
+    "bd": "react-scripts build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

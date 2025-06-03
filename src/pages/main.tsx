@@ -21,7 +21,8 @@ function Main() {
             {/*<Route path='/cocktail-exchange-web' element={<Menu/>} />*/}
             {/*<Route path={APP_URLS.techniques} element={<Techniques/>} />*/}
             {/*<Route path={APP_URLS.ingredients} element={<Ingredients/>} />*/}
-            <Route path="/cocktail-exchange-web/spirits" element={<SpiritsList/>}/>
+            <Route path="/spirits" element={<SpiritsList/>}/>
+            <Route path="/cocktail-exchange-web/#/spirits" element={<SpiritsList/>}/>
             <Route path="*" element={<Menu/>}/>
         </Routes>
     );

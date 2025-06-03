@@ -55,12 +55,12 @@ const currentDrinks: Section[] = [
                 ingredients: 'Scotch, Calvados, Sweet Vermouth',
                 image: upIcon,
             },
-            {
-                name: 'Sherry / Shiitake',
-                subtext: 'Deeply layered sipper, fungi included',
-                ingredients: 'Rye, Sherry Finished Rum Blend, Shiitake, Averna, Nocino',
-                image: ofIcon,
-            },
+            // {
+            //     name: 'Sherry / Shiitake',
+            //     subtext: 'Deeply layered sipper, fungi included',
+            //     ingredients: 'Rye, Sherry Finished Rum Blend, Shiitake, Averna, Nocino',
+            //     image: ofIcon,
+            // },
             {
                 name: 'Beeswax Old Fashioned',
                 subtext: 'Extra silky',
@@ -151,7 +151,7 @@ const currentDrinks: Section[] = [
             {
                 name: 'Espresso Martini',
                 subtext: 'Rich and creamy',
-                ingredients: 'Vodka, Guadalupe Miramar, Ristretto Liqueur, Vanilla, Demerara',
+                ingredients: 'Vodka, Dota Caturra & Catuai, Ristretto Liqueur, Vanilla, Demerara',
                 image: upIcon,
             },
             {

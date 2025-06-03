@@ -562,13 +562,17 @@ const currentDrinks: SpritSection[] = [
                 "name": "Braulio, Riserva Speciale 2017",
                 "subtext": "Italy 24.7% "
             },
-            {
-                "name": "Cynar",
-                "subtext": "Italy 16.5% "
-            },
+            // {
+            //     "name": "Cynar",
+            //     "subtext": "Italy 16.5% "
+            // },
             {
                 "name": "Fernet Branca",
                 "subtext": "Italy 39% "
+            },
+            {
+                "name": "Fernet Branca Menta",
+                "subtext": "Italy 30% "
             }
         ],
         "subsections": []
@@ -683,6 +687,10 @@ const currentDrinks: SpritSection[] = [
             {
                 "name": "St Germain",
                 "subtext": "France 20% "
+            },
+            {
+                "name": "Tempus Fugit, Crème de Menthe Glaciale",
+                "subtext": "Switzerland 28% "
             },
             {
                 "name": "Tree House, Krystall Peppermint Schnapps",
